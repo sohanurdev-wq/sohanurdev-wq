@@ -1,7 +1,7 @@
 # <img src="https://media.giphy.com/media/hvRJCLzz8CZT2/giphy.gif" width="35"> I'm Sohanur Rahman | Principal Systems Architect
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=220&section=header&text=Building%20Future-Ready%20Systems&fontSize=50&animation=fadeIn&fontAlignY=40&overlay=kling" alt="Sohanur Dev Banner" />
+  <img src="https://github.com/sohanurdev-wq/sohanurdev-wq/blob/main/sohanur_dev_header.png?raw=true" alt="Sohanur Dev Banner" width="1000" />
 </p>
 
 ## 🌌 The Digital Reality I Build
