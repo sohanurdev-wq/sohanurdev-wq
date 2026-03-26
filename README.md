@@ -1,73 +1,70 @@
-# <img src="https://media.giphy.com/media/hvRJCLzz8CZT2/giphy.gif" width="35"> I'm Sohanur Rahman | Senior Full-Stack Engineer
 
-<p align="left">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=200&section=header&text=Building%20Future%20Apps&fontSize=50&animation=fadeIn&fontAlignY=40" />
-</p>
+# <img src="https://media.giphy.com/media/hvRJCLzz8CZT2/giphy.gif" width="35"> I'm Sohanur Rahman | Principal Systems Architect
 
-### 💎 High-Complexity Systems I Build:
-* 🚀 **Enterprise Management (ERP/CRM):** Scalable architectures for large businesses.
-* 💳 **Financial Systems:** Secure integration of **Stripe, PayPal, and SSLCommerz** with fraud detection.
-* 🤖 **AI & Automation:** Implementation of Machine Learning models and Automated Workflow bots.
-* 🎥 **Real-time Engine:** Low-latency **Video Streaming (WebRTC)** and **Socket.io** systems.
-
----
-
-### 🏆 Trusted Expertise & Performance
-| ⚡ Application Performance | 🛡️ Security Focused | ⚙️ Scalable Backend |
-| :--- | :--- | :--- |
-| Optimized for 60FPS UI | End-to-end Encryption | Load-balanced Architecture |
-
----
-
-### 🛠️ Professional Tech Stack
-
-<details open>
-<summary><b>🌐 Full-Stack Development</b></summary>
-<br/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> 
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-</details>
-
-<details>
-<summary><b>📱 Mobile & Real-time</b></summary>
-<br/>
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-<img src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white" />
-<img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
-</details>
-
-<details>
-<summary><b>🛡️ Payment & Databases</b></summary>
-<br/>
-<img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" />
-<img src="https://img.shields.io/badge/PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-</details>
-
----
-
-### 📊 Deep Analytics
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sohanurdev-wq&show_icons=true&theme=radical&rank_icon=github&border_radius=10" alt="Stats" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sohanurdev-wq&theme=radical&hide_border=true" alt="Streak" />
+  <img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=220&section=header&text=Building%20Future-Ready%20Systems&fontSize=50&animation=fadeIn&fontAlignY=40&overlay=kling" alt="Sohanur Dev Banner" />
 </p>
 
----
-
-### 🤝 Strategic Partnership (Contact)
-Let's build a solution that drives your business growth.
-
-[<img src="https://img.shields.io/badge/WhatsApp-Direct-25D366?style=for-the-badge&logo=whatsapp" />](https://wa.me/8801410590555) 
-[<img src="https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook" />](https://www.facebook.com/share/1EUzMMQAY3/)
-[<img src="https://img.shields.io/badge/Website-Portfolio-FF4B4B?style=for-the-badge" />](https://sohanurdev-wq.github.io)
+## 🌌 The Digital Reality I Build
+I specialize in transforming complex business logic into high-performance digital products. My core focus is on **Scalability**, **Real-time Communication**, and **Secure Financial Systems**.
 
 ---
+
+### 🗺️ System Architecture Diagram (High-Level Flow)
+This diagram illustrates my typical approach to building modern, real-time applications (e.g., Video Calling + Payment).
+
+```mermaid
+graph TD
+    User[📱 Client App/Web] -->|API Request| LB{Load Balancer}
+    LB -->|Distributes Traffic| API1[🚀 API Server 1 - Node.js]
+    LB -->|Distributes Traffic| API2[🚀 API Server 2 - Node.js]
+    
+    API1 & API2 -->|Reads/Writes| DB[(🗄️ MongoDB/MySQL)]
+    API1 & API2 -->|Pub/Sub| Redis[(⚡ Redis Cache)]
+    
+    API1 -->|Real-time Signals| Socket[🔌 Socket.io Server]
+    Socket <-->|Video Calling| User
+    
+    API2 -->|Secure Payment| PayGateway{Stripe/SSLCommerz}
+    PayGateway -->|Confirm/Webhook| API2
+    
+    %% VFX/High-tech styling for Mermaid
+    linkStyle default stroke-width:2px,fill:none,stroke:gray;
+    classDef server fill:#f9f,stroke:#333,stroke-width:2px;
+    class API1,API2,Socket server;
+    classDef db fill:#ccf,stroke:#f66,stroke-width:2px,stroke-dasharray: 5, 5;
+    class DB,Redis db;
+    classDef user fill:#ff9,stroke:#f00,stroke-width:2px;
+    class User user;
+🛡️ Core Specializations & Trust Matrix
+💼 Domain	🚀 Technologies & Impact	🛡️ Business Value (Trust)
+Video Call (WebRTC)	Node.js, Socket.io, Kurento	<200ms Latency for seamless global communication.
+Financial Systems	Stripe, PayPal, SSLCommerz	PCI DSS Compliant integration with end-to-end encryption.
+Enterprise ERP/CRM	React/Next.js, Laravel	Optimized workflows for 10k+ Concurrent Users.
+AI & Automation	TensorFlow, Python, GPT API	Auto-moderation and Smart Matching algorithms for Dating apps.
+🛠️ Interactive Tech Stack & Ecosystem
 <p align="center">
-  <i>"Code is not just logic, it's an asset for your business."</i>
+<img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Djs,nodejs,react,nextjs,laravel,php,flutter,dart,webrtc,socketio,mongodb,mysql,firebase,redis,docker,aws%26perline%3D8" alt="My Tech Stack Matrix" />
 </p>
+
+📊 Deep Analytics & Coding Stats
+<p align="center">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dsohanurdev-wq%26show_icons%3Dtrue%26theme%3Dnightowl%26rank_icon%3Dgithub%26border_radius%3D10%26hide_border%3Dtrue" alt="Sohanur's Github Stats" />
+
+
+<img src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dsohanurdev-wq%26theme%3Dnightowl%26hide_border%3Dtrue" alt="Sohanur's Coding Streak" />
+</p>
+
+🤝 Strategic Partnership & Contact
+Let's architect your next big idea.
+
+<img src="https://img.shields.io/badge/WhatsApp-Direct%20Message-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<img src="https://img.shields.io/badge/Facebook-Connect%20Professionally-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+<img src="https://img.shields.io/badge/Website-Live%20Portfolio-FF4B4B?style=for-the-badge" />
+
+<p align="center">
+<img src="https://www.google.com/search?q=https://capsule-render.vercel.app/render%3Ftype%3Drect%26color%3Dauto%26height%3D30%26section%3Dfooter%26text%3DCode%2520is%2520Art%2520that%2520Builds%2520Business%26fontSize%3D15" alt="Footer Banner" />
+</p>
+
+
+-----
